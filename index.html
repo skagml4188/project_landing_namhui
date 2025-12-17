@@ -7,61 +7,81 @@
   </head>
   <body>
     <header>
-        <button class="header-menu-button" aria-label="메뉴 열기"><p class="visually-hidden">메뉴 열기</p>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" >
-                <path d="M4 8H28" />
-                <path d="M4 16H28" />
-                <path d="M4 24H28" />
-            </svg>
+        <a href="#"><img src="./images/logo.svg" alt="호두 로고"></a>
+        <button class="header-menu-button">
+            <img src="./images/menu-icon.svg" alt="메뉴 아이콘">
         </button>
-        <dialog id="menu-nav">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-<path d="M6.66675 16L22.6667 16"/>
-<path d="M15.9999 25.3333L25.3333 16L15.9999 6.66667"/>
-</svg>
-<button id="return-button">돌아가기</button>
-            <nav>
+        <dialog id="menu-dialog">
+<button id="return-button">
+    <img src="./images/arrow-right.svg" alt="돌아가기">
+</button>
+            <nav class="menu-nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Support</a></li>
                 </ul>
             </nav>
-            <button class="download-button" aria-label="download">Download</button>
+            <button class="download-button" aria-label="download">download</button>
         </dialog>
     </header>
     <main>
         <section class="hero">
             <h2 class="visually-hidden">주요 내용</h2>
-            <p class="hero-title">Lorem Ipsum is simply
-dummy text 
-of the printing and</p>
+            <p class="hero-title">
+                Lorem Ipsum is simply <br>
+                dummy text <br>
+                of the printing and</p>
             <p class="hero-description">
-                Lorem Ipsum is simply dummy text
-                of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s,
+                Lorem Ipsum is simply dummy text <br>
+                of the printing and typesetting industry. <br>
+                Lorem Ipsum has been the industry's <br>
+                standard dummy text ever since the 1500s, <br>
                 when an unknown</p>
             <button class="hero-cta-button" aria-label="download">download</button>
+            <img src="./images/box-cat.png" alt="박스를 뒤집어 쓴 고양이 이미지">
         </section>
         <section class="content-section">
             <h2 class="visually-hidden">컨텐츠 영역</h2>
             <article class="card1">
                 <h3 class="visually-hidden">컨텐츠 1</h3>
-                <img src="./images/img_4.jpg" alt="">
-                <p class="card1-title"></p>
-                <p class="card1-description"></p>
+                <img src="./images/img_4.jpg" alt="누워있는 고양이 이미지">
+                <p class="card1-title">
+                    Lorem Ipsum is simply <br>
+                    dummy text of the printing <br>
+                    and dummy text</p>
+                <p class="card1-description">
+                    Lorem Ipsum is simply dummy text of the printing <br>
+                    and typesetting industry. <br>
+                </p>
             </article>
             <article class="card2">
                 <h3 class="visually-hidden">컨텐츠 2</h3>
-                <p class="card2-title"></p>
-                <p class="card2-description"></p>
-                <img src="./images/img_1.jpg" alt="">
-                <img src="./images/img_2.jpg" alt="">
+                <p class="card2-title">
+                    dummy text of the printing <br>
+                    and dummy</p>
+                <p class="card2-description">
+                    Lorem Ipsum is simply dummy text of <br>
+                    the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's <br>
+                    standard dummy text ever since the 1500s, <br>
+                    when an unknown
+</p>
+                <img src="./images/img_1.jpg" alt="캣타워에 올라간 고양이 이미지">
+                <img src="./images/img_2.jpg" alt="뒷 모습 고양이 이미지">
+                <img src="./images/img_3.jpg" alt="앞 모습 고양이 이미지">
             </article>
             <article class="card3">
                 <h3 class="visually-hidden">컨텐츠 3</h3>
-                <p class="card3-description"></p>
+                <p class="card3-description">
+                    Lorem Ipsum is simply dummy text of <br>
+                    the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's <br>
+                    standard dummy text ever since the 1500s, <br>
+                    when an unknown <br>
+                    Ipsum is simply dummy text of the printing <br>
+                    and typesetting industry. <br>
+                </p>
                 <button class="more-button" aria-label="learn more">learn more</button>
             </article>
         </section>
