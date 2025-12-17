@@ -7,6 +7,7 @@
   </head>
   <body>
     <header>
+        <h1 class="visually-hidden">호두 페이지</h1>
         <a href="#"><img src="./images/logo.svg" alt="호두 로고"></a>
         <button class="header-menu-button">
             <img src="./images/menu-icon.svg" alt="메뉴 아이콘">
@@ -22,7 +23,7 @@
                     <li><a href="#">Support</a></li>
                 </ul>
             </nav>
-            <button class="download-button" aria-label="download">download</button>
+            <button class="download-button">download</button>
         </dialog>
     </header>
     <main>
@@ -39,32 +40,32 @@
                 Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s,
                 when an unknown</p></div>
-            <button class="hero-cta-button" aria-label="download">download</button>
+            <button class="download-button">download</button>
             <img src="./images/box-cat.png" alt="박스를 뒤집어 쓴 고양이 이미지">
         </section>
         <section class="content-section">
             <h2 class="visually-hidden">컨텐츠 영역</h2>
-            <article class="card1">
+            <article class="card">
                 <h3 class="visually-hidden">컨텐츠 1</h3>
                 <img src="./images/img_4.jpg" alt="누워있는 고양이 이미지">
-                <div class="card1-content">
-                    <p class="card1-title">
+                <div class="card-content">
+                    <p class="card-title">
                     Lorem Ipsum is simply 
                     dummy text of the printing 
                     and dummy text</p>
-                    <p class="card1-description">
+                    <p class="card-description">
                     Lorem Ipsum is simply dummy text of the printing 
                     and typesetting industry.
                 </p>
                 </div>
             </article>
-            <article class="card2">
+            <article class="card">
                 <h3 class="visually-hidden">컨텐츠 2</h3>
-                <div class="card2-content">
-                    <p class="card2-title">
+                <div class="card-content">
+                    <p class="card-title">
                     dummy text of the printing
                     and dummy</p>
-                    <p class="card2-description">
+                    <p class="card-description">
                     Lorem Ipsum is simply dummy text of
                     the printing and typesetting industry.
                     Lorem Ipsum has been the industry's
@@ -74,9 +75,9 @@
                 <img src="./images/img_2.jpg" alt="뒷 모습 고양이 이미지">
                 <img src="./images/img_3.jpg" alt="앞 모습 고양이 이미지">
             </article>
-            <article class="card3">
+            <article class="card">
                 <h3 class="visually-hidden">컨텐츠 3</h3>
-                <p class="card3-description">
+                <p class="card-description">
                     Lorem Ipsum is simply dummy text of
                     the printing and typesetting industry.
                     Lorem Ipsum has been the industry's
@@ -84,11 +85,10 @@
                     when an unknown
                     Ipsum is simply dummy text of the printing
                     and typesetting industry. </p>
-                <button class="more-button" aria-label="learn more">learn more</button>
+                <button class="plus-button" aria-label="plus-button">learn more</button>
             </article>
         </section>
-    </main>
-    <aside class="subscribe">
+    <section class="subscribe">
         <h2 class="visually-hidden">구독 영역</h2>
         <div class="subscribe-content"><p class="subscribe-title">Subscribe to our 
             Blog post</p>
@@ -100,7 +100,7 @@
         <form class="subscribe-form">
             <label for="email" class="visually-hidden">이메일 입력</label>
             <input class="subscribe-input" type="email" id="email" name="email" placeholder="Enter your e-mail address" required>
-            <button type="submit" class="subscribe-submit" aria-label="subscribe">subscribe</button>
+            <button type="submit" class="subscribe-submit">subscribe</button>
         </form>
         <dialog class="subscribe-dialog">
             <img src="./images/cat-subscribe.png" alt="발그레한 고양이 이미지">
@@ -108,9 +108,13 @@
             <p class="dialog-description">
                 Lorem Ipsum is simply dummy
                 text of the printing industry. </p>
-                <button class="OK" aria-label="subscribe-ok">OK! I Love HODU</button>
+                <button class="confirm" aria-label="subscribe-confirm">OK! I Love HODU</button>
         </dialog>
-    </aside>
+    </section>
+    <button class="hover-button">
+        <img src="./images/arrow-up.svg" alt="위로 화살표 아이콘">
+    </button>
+    </main>
     <footer class="footer">
         <a href="#"><img src="./images/logo.svg" alt="호두 로고"></a>
         <ul class="links-social-media">
