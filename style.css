@@ -73,6 +73,33 @@ body ::first-letter {text-transform: uppercase;
 body {
     font-family: 'SpokaHanSansNeo', sans-serif;
 }
+/*이미지*/
+.hero-image {
+    width: 206px;
+    height: 362px;
+    object-fit: cover;
+}
+.card-image {
+    width: 326px;
+    height: 190px;
+    border-radius: 18px;
+    box-shadow: 10px 10px 20px 0px #00000040;
+    object-fit: cover;
+}
+.image-list {
+    width: 260px;
+    height: 260px;
+    border-radius: 18px;
+    box-shadow: 10px 10px 20px 0px #00000040;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cat-subscribe {
+    width: 60px;
+    height: 62px;
+}
 /**/
 body {
     max-width: 400px;
@@ -162,6 +189,7 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    overflow-x: hidden auto;
 }
 .hero {
     max-width: 400px;
@@ -218,9 +246,6 @@ main {
 }
 .plus-button {
     margin-top: 24px;
-}
-.carousel {
-    display: grid;
 }
 .subscribe {
     display: flex;
