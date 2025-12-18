@@ -1,3 +1,4 @@
+/* 폰트 기본 설정*/
 @font-face {
     font-family: 'SpokaHanSansNeo';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff') format('woff');
@@ -34,4 +35,69 @@
 }
 body {
     font-family: 'SpokaHanSansNeo', sans-serif;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.header-visual {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.menu-dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+.footer-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
 }
