@@ -235,19 +235,31 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: space-between;
+    gap: 89px;
+    max-width: 390px;
+
 }
 .footer-visual {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    max-width: 176px;
+    gap: 58px;
 }
 .social-media-links {
     display: flex;
     flex-direction: row;
     align-items: space-between;
+    max-width: 86px;
+    gap: 16px;
+    background-color: #F29D52;
+    background-size: 32px 32px;
+    border-radius: 50px;
 }
 .footer-nav {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-end;
+    gap: 10px;
 }
