@@ -11,18 +11,18 @@
     <header>
         <h1 class="visually-hidden">호두 페이지</h1>
             <a href="#"><img class="header-logo" src="./images/logo.svg" alt="호두 로고"></a>
-        <button class="header-menu-icon" aria-label="메뉴 열기">
-            <img src="./images/menu-icon.svg" alt="">
+        <button class="icon header-menu-icon" aria-label="메뉴 열기">
+            <img src="./images/menu.svg" alt="">
         </button>
         <dialog class="menu-dialog">
-<button class="menu-close-icon" aria-label="메뉴 닫기">
+<button class="icon menu-close-icon" aria-label="메뉴 닫기">
     <img src="./images/arrow-right.svg" alt="">
 </button>
             <nav aria-label="주요 메뉴">
                 <ul class="menu-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Support</a></li>
+                    <li><a href="#" class="link menu-link">Home</a></li>
+                    <li><a href="#" class="link menu-link">About</a></li>
+                    <li><a href="#" class="link menu-link">Support</a></li>
                 </ul>
             </nav>
             <button class="menu-download-button">download</button>
@@ -31,10 +31,10 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h2 class="hero-title">lorem ipsum is simply
+                <h2 class="title">lorem ipsum is simply
                 dummy text
                 of the printing and</h2>
-                <p class="hero-description">
+                <p class="description hero-description">
                 lorem ipsum is simply dummy text
                 of the printing and typesetting industry.
                 lorem ipsum has been the industry's
@@ -45,14 +45,14 @@
         </section>
         <section class="content-section">
             <h2 class="visually-hidden">고양이 컨텐츠 모음</h2>
-            <article class="header-card">
-                <img class="header-card-image" src="./images/img_4.jpg" alt="누워있는 고양이 이미지">
-                <div class="header-card-content">
-                    <h3 class="header-card-title">
+            <article class="card header-card">
+                <img class="card-image" src="./images/img_4.jpg" alt="누워있는 고양이 이미지">
+                <div class="content header-card-content">
+                    <h3 class=" title header-card-title">
                     lorem Ipsum is simply 
                     dummy text of the printing 
                     and dummy text</h3>
-                    <p class="header-card-description">
+                    <p class="description header-card-description">
                     lorem ipsum is simply dummy text of the printing 
                     and typesetting industry.
                 </p>
@@ -60,10 +60,10 @@
             </article>
             <article class="card">
                 <div class="card-content">
-                    <h3 class="card-title">
+                    <h3 class="title card-title">
                     dummy text of the printing
                     and dummy</h3>
-                    <p class="card-description">
+                    <p class="description card-description">
                     lorem ipsum is simply <span>dummy text</span> of
                     the printing and typesetting industry.
                     lorem ipsum has been the industry's
@@ -74,7 +74,9 @@
                     <li><img class="list-image" src="./images/img_2.jpg" alt="뒷 모습 고양이 이미지"></li>
                     <li><img class="list-image" src="./images/img_3.jpg" alt="앞 모습 고양이 이미지"></li>
                 </ul>
-                    <p class="card-description">
+                </article>
+                    <article class="card card-learn">
+                        <p class="description card-description">
                     lorem ipsum is simply dummy text of
                     the printing and typesetting industry.
                     lorem ipsum has been the industry's
@@ -82,12 +84,12 @@
                     when an unknown
                     ipsum is simply dummy text of the printing
                     and typesetting industry. </p>
-                <button class="plus-button">learn more</button>
+                <button class="button plus-button">learn more</button>
             </article>
         </section>
     <section class="subscribe">
         <div class="subscribe-content">
-            <h2 class="subscribe-title">subscribe to our 
+            <h2 class="title subscribe-title">subscribe to our 
             blog post</h2>
             <p class="subscribe-description">
             lorem ipsum is simply dummy text of 
@@ -102,38 +104,38 @@
                     name="email" 
                     placeholder="Enter your e-mail address" 
                     required>
-            <button class="subscribe-confirm-button" 
+            <button class="button subscribe-confirm-button" 
                     type="submit">subscribe</button>
         </form>
         <dialog class="subscribe-dialog" aria-label="구독 완료 팝업">
             <img class="subscribe-image" src="./images/cat-subscribe.png" alt="발그레한 고양이 이미지">
-            <h4 class="subscribe-title">thank you!</h4>
+            <h3>thank you!</h3>
             <p class="subscribe-description">
                 lorem ipsum is simply dummy
                 text of the printing industry.</p>
-                <button class="subscribe-close-button" aria-label="팝업 닫기">ok! i love hodu</button>
+                <button class="button subscribe-close-button" aria-label="팝업 닫기">ok! i love hodu</button>
         </dialog>
     </section>
-    <button class="hover-button" aria-label="페이지 상단으로 이동">
-        <img src="./images/arrow-up.svg" alt="">
+    <button class="hover-icon" aria-label="페이지 상단으로 이동">
+        <img src="./images/top-btn.svg" alt="">
     </button>
     </main>
     <footer class="footer">
         <div class="footer-visual">
-            <a href="#"><img src="./images/logo.svg" alt="호두 로고"></a>
+            <a href="#"><img src="./images/logo.svg" alt="호두 로고" class="logo"></a>
             <ul class="social-media-list" aria-label="소셜 미디어 링크 모음">
-                <li class="social-media"><a href="#"><img src="./images/blog.svg" alt="네이버블로그"></a></li>
-                <li class="social-media"><a href="#"><img src="./images/instagram.svg" alt="인스타그램"></a></li>
-                <li class="social-media"><a href="#"><img src="./images/facebook.svg" alt="페이스북"></a></li>
-                <li class="social-media"><a href="#"><img src="./images/youtube.svg" alt="유튜브"></a></li>
+                <li class="social-media"><a href="#"><img src="./images/blog.svg" alt="네이버블로그" class="social-media-icon"></a></li>
+                <li class="social-media"><a href="#"><img src="./images/instagram.svg" alt="인스타그램" class="social-media-icon"></a></li>
+                <li class="social-media"><a href="#"><img src="./images/facebook.svg" alt="페이스북" class="social-media-icon"></a></li>
+                <li class="social-media"><a href="#"><img src="./images/youtube.svg" alt="유튜브" class="social-media-icon"></a></li>
             </ul>
         </div>
         <nav>
             <ul class="footer-nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#" class="link footer-link">About</a></li>
+                <li><a href="#" class="link footer-link">Blog</a></li>
+                <li><a href="#" class="link footer-link">Support</a></li>
+                <li><a href="#" class="link footer-link">Terms of Use</a></li>
             </ul>
         </nav>
     </footer>
